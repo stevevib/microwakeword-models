@@ -1,13 +1,13 @@
 {
     "type": "micro",
     "wake_word": "Hey Lexxy",
-    "author": "Steve Vibert",
-    "website": "https://github.com/stevevib/microWakeWord-Trainer-Enhanced-Negatives.git",
+    "author": "Tater Totterson",
+    "website": "https://github.com/TaterTotterson/microWakeWord-Trainer-Nvidia-Docker.git",
     "model": "hey_lexxy.tflite",
     "trained_languages": ["en"],
     "version": 2,
     "micro": {
-        "probability_cutoff": 0.95,
+        "probability_cutoff": 0.97,
         "sliding_window_size": 5,
         "feature_step_size": 10,
         "tensor_arena_size": 30000,
